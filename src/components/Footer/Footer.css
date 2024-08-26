@@ -1,0 +1,12 @@
+footer {
+  margin: 50px 170px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.footer-bottom {
+  text-align: center;
+  font-size: 18px;
+  padding: 20px 0;
+}

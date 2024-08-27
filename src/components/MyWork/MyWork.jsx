@@ -5,7 +5,7 @@ import right_arrow from '../../assets/right_arrow.svg'
 
 function MyWork() {
   return (
-    <div className='mywork'>
+    <div id='work' className='mywork'>
       <div className="mywork-title">
         <h1>My latest work</h1>
         <img src={design} alt="" />

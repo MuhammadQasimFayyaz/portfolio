@@ -1,9 +1,10 @@
 import "./Hero.css";
 import { TypeAnimation } from "react-type-animation";
+import AnchorLink from 'react-anchor-link-smooth-scroll'
 
 function Hero() {
   return (
-    <div className="hero">
+    <div id="home" className="hero">
       <img src="" alt="profile image" />
       <h1>
         <span className="im">I`m Muhammad Qasim Fayyaz, </span>
@@ -25,7 +26,9 @@ function Hero() {
         I`m a frontend web developer from Pakistan with 3+ years of experience
       </p>
       <div className="hero-action">
-        <div className="hero-connect">Connect with me</div>
+        <AnchorLink className='anchor-link' offset={50} href='#contact'>
+          <div className="hero-connect">Connect with me</div>
+        </AnchorLink>
         <div className="hero-resume">My Resume</div>
       </div>
     </div>

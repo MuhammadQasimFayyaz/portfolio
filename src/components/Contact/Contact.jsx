@@ -24,7 +24,7 @@ function Contact() {
     }).then((res) => res.json());
 
     if (res.success) {
-      console.log("Success", res);
+      alert(res.message)
     }
   };
 
@@ -56,11 +56,11 @@ function Contact() {
         </div>
         <form onSubmit={onSubmit} className="contact-right">
           <label htmlFor="name">your name</label>
-          <input type="text" name="name" id="name" placeholder='Enter your name' />
+          <input type="text" name="name" id="name" placeholder='Enter your name' required />
           <label htmlFor="email">your email</label>
-          <input type="email" name="email" id="email" placeholder='Enter your email' />
+          <input type="email" name="email" id="email" placeholder='Enter your email' required />
           <label htmlFor="mess">Write your message here</label>
-          <textarea name="message" id="mess" rows='8' placeholder='Enter your message'></textarea>
+          <textarea name="message" id="mess" rows='8' placeholder='Enter your message' required></textarea>
           <button className='contact-submit' type='submit'>submit now</button>
         </form>
       </div>

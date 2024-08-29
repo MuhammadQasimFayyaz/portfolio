@@ -1,0 +1,10 @@
+.snake-segment {
+  position: fixed;
+  width: 10px;
+  height: 10px;
+  background-color: #ff0000;
+  border-radius: 50%;
+  pointer-events: none;
+  transition: transform 0.5s ease;
+  transform: translate(-50%, -50%);
+}

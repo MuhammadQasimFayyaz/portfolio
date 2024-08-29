@@ -86,7 +86,7 @@ function Navbar() {
         className='anchor-link no-underline text-white hidden md:block'
         offset={50}
         href='#contact'>
-        <div className='nav-connect py-[15px] sm:py-[15px] px-[10px] sm:px-[40px] rounded-full bg-gradient-to-r from-[#da7c25] to-[#b923e1] text-[20px] sm:text-[22px] cursor-pointer transition-transform duration-500 hover:scale-105'>
+        <div className='nav-connect py-[15px] sm:py-[15px] px-[10px] sm:px-[40px] rounded-full bg-gradient-to-r from-[#da7c25] to-[#b923e1] text-[20px] sm:text-[22px] cursor-pointer transition-transform duration-500 hover:bg-gradient-to-r hover:to-[#da7c25] hover:from-[#b923e1]'>
           Connect with me
         </div>
       </AnchorLink>

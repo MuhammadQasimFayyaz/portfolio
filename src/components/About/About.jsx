@@ -43,25 +43,25 @@ function About() {
         </div>
       </div>
       <div className="about-achievements flex flex-col md:flex-row w-full justify-between items-center gap-[40px] sm:gap-[50px] md:gap-[60px] lg:gap-[80px] mb-[50px] sm:mb-[60px] md:mb-[70px] lg:mb-[80px]">
-        <div className="about-achievement flex flex-col items-center gap-[5px] sm:gap-[8px] md:gap-[10px] transition-transform duration-500 hover:scale-[1.12]">
-          <h1 className="text-[40px] sm:text-[50px] md:text-[55px] lg:text-[60px] font-bold bg-gradient-to-r from-[#df8908] to-[#b415ff] bg-clip-text text-transparent">
+        <div className="about-achievement flex flex-col items-center gap-[5px] sm:gap-[8px] md:gap-[10px] transition-transform duration-500 group">
+          <h1 className="text-[40px] sm:text-[50px] md:text-[55px] lg:text-[60px] font-bold bg-gradient-to-r from-[#df8908] to-[#b415ff] bg-clip-text text-transparent group-hover:text-white transition-colors duration-300">
             {inView ? <CountUp start={0} end={10} duration={5}/> : null}+
           </h1>
-          <p className="text-[18px] sm:text-[20px] md:text-[22px] lg:text-[22px] font-medium uppercase text-center">Years of experience</p>
+          <p className="text-[18px] sm:text-[20px] md:text-[22px] lg:text-[22px] font-medium uppercase text-center group-hover:text-[#b415ff] transition-colors duration-300">Years of experience</p>
         </div>
         <hr className="hidden md:block w-px h-[60px] sm:h-[70px] md:h-[80px] bg-gray-300" />
-        <div className="about-achievement flex flex-col items-center gap-[5px] sm:gap-[8px] md:gap-[10px] transition-transform duration-500 hover:scale-[1.12]">
-          <h1 className="text-[40px] sm:text-[50px] md:text-[55px] lg:text-[60px] font-bold bg-gradient-to-r from-[#df8908] to-[#b415ff] bg-clip-text text-transparent">
+        <div className="about-achievement flex flex-col items-center gap-[5px] sm:gap-[8px] md:gap-[10px] transition-transform duration-500 group">
+          <h1 className="text-[40px] sm:text-[50px] md:text-[55px] lg:text-[60px] font-bold bg-gradient-to-r from-[#df8908] to-[#b415ff] bg-clip-text text-transparent group-hover:text-white transition-colors duration-300">
             {inView ? <CountUp start={0} end={90} duration={5}/> : null}+
           </h1>
-          <p className="text-[18px] sm:text-[20px] md:text-[22px] lg:text-[22px] font-medium uppercase text-center">Projects completed</p>
+          <p className="text-[18px] sm:text-[20px] md:text-[22px] lg:text-[22px] font-medium uppercase text-center group-hover:text-[#b415ff] transition-colors duration-300">Projects completed</p>
         </div>
         <hr className="hidden md:block w-px h-[60px] sm:h-[70px] md:h-[80px] bg-gray-300" />
-        <div className="about-achievement flex flex-col items-center gap-[5px] sm:gap-[8px] md:gap-[10px] transition-transform duration-500 hover:scale-[1.12]">
-          <h1 className="text-[40px] sm:text-[50px] md:text-[55px] lg:text-[60px] font-bold bg-gradient-to-r from-[#df8908] to-[#b415ff] bg-clip-text text-transparent">
+        <div className="about-achievement flex flex-col items-center gap-[5px] sm:gap-[8px] md:gap-[10px] transition-transform duration-500 group">
+          <h1 className="text-[40px] sm:text-[50px] md:text-[55px] lg:text-[60px] font-bold bg-gradient-to-r from-[#df8908] to-[#b415ff] bg-clip-text text-transparent group-hover:text-white transition-colors duration-300">
             {inView ? <CountUp start={0} end={15} duration={5}/> : null}+
           </h1>
-          <p className="text-[18px] sm:text-[20px] md:text-[22px] lg:text-[22px] font-medium uppercase text-center">Happy clients</p>
+          <p className="text-[18px] sm:text-[20px] md:text-[22px] lg:text-[22px] font-medium uppercase text-center group-hover:text-[#b415ff] transition-colors duration-300">Happy clients</p>
         </div>
       </div>
     </div>

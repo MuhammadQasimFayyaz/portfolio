@@ -1,8 +1,9 @@
 @media (max-width: 768px) {
   .about {
     gap: 80px;
-    margin: 50px 6%;
+    margin: 0 !important;
     align-items: start;
+    padding: 0 10px;
   }
   .about-title h1 {
     font-size: 50px;
@@ -19,7 +20,7 @@
     display: none;
   }
   .about-para {
-    font-size: 18px;
+    font-size: 18px !important;
     line-height: 32px;
   }
   .about-skill {
@@ -45,5 +46,11 @@
   .about-achievement p {
     text-align: center;
     font-size: 16px;
+  }
+}
+
+@media (max-width: 575px) {
+  .about-para {
+    font-size: 16px !important;
   }
 }

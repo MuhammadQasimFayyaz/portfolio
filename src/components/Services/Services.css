@@ -2,7 +2,8 @@
   .services {
     align-items: start;
     gap: 70px;
-    margin: 20px 70px;
+    margin: 0 !important;
+    padding: 0 10px;
   }
   .services-title h1 {
     padding: 0;
@@ -30,5 +31,11 @@
   .services-container {
     grid-template-columns: 1fr 1fr;
     gap: 30px;
+  }
+}
+
+@media (max-width: 575px) {
+  .services-container {
+    grid-template-columns: 1fr !important;
   }
 }

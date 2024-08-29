@@ -1,12 +1,5 @@
-footer {
-  margin: 50px 170px;
-  display: flex;
-  flex-direction: column;
-  gap: 30px;
-}
-
-.footer-bottom {
-  text-align: center;
-  font-size: 18px;
-  padding: 20px 0;
+@media (max-width: 575px) {
+  .footer-bottom-mid {
+    font-size: 16px !important;
+  }
 }

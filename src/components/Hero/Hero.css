@@ -1,4 +1,7 @@
 @media (max-width: 768px) {
+  .hero {
+    padding: 0 10px;
+  }
   .hero img {
     margin-top: 120px;
     width: 260px;
@@ -27,5 +30,21 @@
   .hero-action .hero-resume {
     padding: 20px 50px;
     border-radius: 40px;
+  }
+}
+
+@media (max-width: 575px) {
+  .hero h1 {
+    width: unset;
+    font-size: 40px;
+  }
+  .hero p {
+    width: 85%;
+    font-size: 18px;
+  }
+  .hero-action .hero-connect, .hero-action .hero-resume {
+    padding: 10px 15px;
+    font-size: 16px;
+    text-align: center;
   }
 }

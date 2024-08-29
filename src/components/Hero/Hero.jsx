@@ -1,6 +1,7 @@
 // import "./Hero.css";
 import { TypeAnimation } from "react-type-animation";
 import AnchorLink from 'react-anchor-link-smooth-scroll'
+import { RiDownload2Fill } from 'react-icons/ri'
 
 function Hero() {
 
@@ -45,8 +46,8 @@ function Hero() {
             Connect with me
           </div>
         </AnchorLink>
-        <button onClick={() => {downloadFileAtURL(PDF_FILE_URL)}} className="hero-resume py-[15px] sm:py-[22px] md:py-[25px] px-[20px] sm:px-[60px] md:px-[75px] rounded-full border-2 border-white cursor-pointer transition duration-500 hover:border-[#b415ff]">
-          My Resume
+        <button onClick={() => {downloadFileAtURL(PDF_FILE_URL)}} className="hero-resume flex items-center py-[15px] sm:py-[22px] md:py-[25px] px-[20px] sm:px-[55px] md:px-[70px] rounded-full border-2 border-white cursor-pointer transition duration-500 hover:border-[#b415ff]">
+          My Resume <RiDownload2Fill className="text-white ml-2" />
         </button>
       </div>
     </div>

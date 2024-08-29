@@ -35,9 +35,9 @@ function Contact() {
         <h1 className="relative px-[20px] sm:px-[25px] md:px-[30px] text-[40px] sm:text-[60px] md:text-[70px] lg:text-[80px] font-semibold">Get in Touch</h1>
         <img src={design} alt="" className="absolute bottom-[-10px] right-0 z-[-1] w-[100px] sm:w-[120px] md:w-[140px] lg:w-[160px]" />
       </div>
-      <div className="contact-section flex flex-col lg:flex-row gap-[40px] sm:gap-[50px] md:gap-[60px] lg:gap-[150px]">
-        <div className="contact-left flex flex-col gap-[20px] sm:gap-[25px] md:gap-[30px]">
-          <h1 className="text-[40px] sm:text-[50px] md:text-[60px] lg:text-[80px] font-bold bg-gradient-to-r from-[#df8908] to-[#b415ff] bg-clip-text text-transparent">Let`s talk</h1>
+      <div className="contact-section flex flex-col lg:flex-row gap-[40px] sm:gap-[50px] md:gap-[60px] lg:gap-[100px]">
+        <div className="contact-left flex flex-col gap-[20px] sm:gap-[25px] md:gap-[30px] w-[50%]">
+          <h1 className="text-[40px] sm:text-[50px] md:text-[60px] lg:text-[70px] font-bold bg-gradient-to-r from-[#df8908] to-[#b415ff] bg-clip-text text-transparent">Let`s talk</h1>
           <p className="max-w-[300px] sm:max-w-[400px] md:max-w-[500px] lg:max-w-[550px] text-[#d8d8d8] text-[16px] sm:text-[18px] md:text-[20px] leading-[30px] sm:leading-[32px] md:leading-[35px]">
             I`m currently available to take on new projects, so feel free to send me a message about anything that you want me to work on. You can contact me anytime.
           </p>
@@ -56,13 +56,13 @@ function Contact() {
             </div>
           </div>
         </div>
-        <form onSubmit={onSubmit} className="contact-right flex flex-col items-start gap-[20px] sm:gap-[25px] md:gap-[30px]">
+        <form onSubmit={onSubmit} className="contact-right flex flex-col items-start gap-[20px] sm:gap-[25px] md:gap-[30px] w-[50%]">
           <label htmlFor="name" className="text-[#d8d8d8] text-[18px] sm:text-[20px] md:text-[22px] font-medium capitalize">your name</label>
-          <input type="text" name="name" id="name" placeholder='Enter your name' required className="w-[300px] sm:w-[450px] md:w-[550px] lg:w-[700px] h-[50px] sm:h-[60px] md:h-[70px] lg:h-[78px] pl-[15px] rounded-[4px] bg-[#32323c] text-[#a0a0a0] text-[16px] sm:text-[18px] md:text-[20px] border-none" />
+          <input type="text" name="name" id="name" placeholder='Enter your name' required className="w-[300px] sm:w-[450px] md:w-[550px] lg:w-[100%] h-[50px] sm:h-[60px] md:h-[70px] lg:h-[78px] pl-[15px] rounded-[4px] bg-[#32323c] text-[#a0a0a0] text-[16px] sm:text-[18px] md:text-[20px] border-none" />
           <label htmlFor="email" className="text-[#d8d8d8] text-[18px] sm:text-[20px] md:text-[22px] font-medium capitalize">your email</label>
-          <input type="email" name="email" id="email" placeholder='Enter your email' required className="w-[300px] sm:w-[450px] md:w-[550px] lg:w-[700px] h-[50px] sm:h-[60px] md:h-[70px] lg:h-[78px] pl-[15px] rounded-[4px] bg-[#32323c] text-[#a0a0a0] text-[16px] sm:text-[18px] md:text-[20px] border-none" />
+          <input type="email" name="email" id="email" placeholder='Enter your email' required className="w-[300px] sm:w-[450px] md:w-[550px] lg:w-[100%] h-[50px] sm:h-[60px] md:h-[70px] lg:h-[78px] pl-[15px] rounded-[4px] bg-[#32323c] text-[#a0a0a0] text-[16px] sm:text-[18px] md:text-[20px] border-none" />
           <label htmlFor="mess" className="text-[#d8d8d8] text-[18px] sm:text-[20px] md:text-[22px] font-medium capitalize">Write your message here</label>
-          <textarea name="message" id="mess" rows='8' placeholder='Enter your message' required className="w-[300px] sm:w-[400px] md:w-[550px] lg:w-[650px] h-auto p-[20px] sm:p-[22px] md:p-[25px] rounded-[4px] bg-[#32323c] text-[#a0a0a0] text-[16px] sm:text-[18px] md:text-[20px] border-none"></textarea>
+          <textarea name="message" id="mess" rows='8' placeholder='Enter your message' required className="w-[300px] sm:w-[400px] md:w-[550px] lg:w-[100%] h-auto p-[20px] sm:p-[22px] md:p-[25px] rounded-[4px] bg-[#32323c] text-[#a0a0a0] text-[16px] sm:text-[18px] md:text-[20px] border-none"></textarea>
           <button type='submit' className="contact-submit border-none text-white rounded-full bg-gradient-to-r from-[#df8908] to-[#b415ff] text-[18px] sm:text-[20px] md:text-[22px] py-[15px] sm:py-[18px] md:py-[20px] px-[40px] sm:px-[50px] md:px-[60px] lg:px-[80px] mb-[50px] cursor-pointer capitalize transition-transform duration-300 hover:scale-[1.1]">
             submit now
           </button>

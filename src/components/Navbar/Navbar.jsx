@@ -37,7 +37,7 @@ function Navbar() {
           alt=''
           onClick={closeMenu}
         />
-        <li className='flex flex-col md:flex-row lg:flex-col gap-[5px] cursor-pointer items-center'>
+        <li className='flex flex-col md:flex-col lg:flex-col gap-[5px] cursor-pointer items-center'>
           <AnchorLink
             className='anchor-link no-underline text-white'
             href='#home'>
@@ -45,7 +45,7 @@ function Navbar() {
           </AnchorLink>
           {menu === 'home' && <img src={underline} alt='' className='flex mx-auto' />}
         </li>
-        <li className='flex flex-col md:flex-row lg:flex-col gap-[5px] cursor-pointer items-center'>
+        <li className='flex flex-col md:flex-col lg:flex-col gap-[5px] cursor-pointer items-center'>
           <AnchorLink
             className='anchor-link no-underline text-white'
             offset={50}
@@ -54,7 +54,7 @@ function Navbar() {
           </AnchorLink>
           {menu === 'about' && <img src={underline} alt='' className='flex mx-auto' />}
         </li>
-        <li className='flex flex-col md:flex-row lg:flex-col gap-[5px] cursor-pointer items-center'>
+        <li className='flex flex-col md:flex-col lg:flex-col gap-[5px] cursor-pointer items-center'>
           <AnchorLink
             className='anchor-link no-underline text-white'
             offset={50}
@@ -63,7 +63,16 @@ function Navbar() {
           </AnchorLink>
           {menu === 'services' && <img src={underline} alt='' className='flex mx-auto' />}
         </li>
-        <li className='flex flex-col md:flex-row lg:flex-col gap-[5px] cursor-pointer items-center'>
+        <li className='flex flex-col md:flex-col lg:flex-col gap-[5px] cursor-pointer items-center'>
+          <AnchorLink
+            className='anchor-link no-underline text-white'
+            offset={50}
+            href='#skills'>
+            <p onClick={() => setMenu('skills')}>Skills</p>
+          </AnchorLink>
+          {menu === 'skills' && <img src={underline} alt='' className='flex mx-auto' />}
+        </li>
+        <li className='flex flex-col md:flex-col lg:flex-col gap-[5px] cursor-pointer items-center'>
           <AnchorLink
             className='anchor-link no-underline text-white'
             offset={50}
@@ -72,7 +81,7 @@ function Navbar() {
           </AnchorLink>
           {menu === 'work' && <img src={underline} alt='' className='flex mx-auto' />}
         </li>
-        <li className='flex flex-col md:flex-row lg:flex-col gap-[5px] cursor-pointer items-center'>
+        <li className='flex flex-col md:flex-col lg:flex-col gap-[5px] cursor-pointer items-center'>
           <AnchorLink
             className='anchor-link no-underline text-white'
             offset={50}

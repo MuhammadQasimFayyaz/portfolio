@@ -7,7 +7,7 @@ import image from '../../assets/image.png'
 
 function Hero() {
 
-  const PDF_FILE_URL = "http://localhost:5173/Resume.pdf"
+  const PDF_FILE_URL = "../../../public/Resume.pdf"
   const downloadFileAtURL = (url) => {
     const fileName = url.split("/").pop()
     const aTag = document.createElement("a")
@@ -42,7 +42,7 @@ function Hero() {
       <p className="w-[85%] sm:w-[70%] md:w-[60%] lg:w-[50%] text-center text-[18px] sm:text-[20px] md:text-[22px] lg:text-[24px] leading-[28px] sm:leading-[32px] md:leading-[36px] lg:leading-[40px]">
         I`m a frontend web developer from Pakistan with 3+ years of experience
       </p>
-      <div className="fixed left-0 flex-col top-[50%] translate-y-[-50%] flex justify-center text-[20px] gap-y-6 w-max px-3 h-40 rounded-r-xl z-10 bg-gradient-to-b from-[#df8908] to-[#b415ff]">
+      <div className="fixed  left-0 flex-col top-[50%] translate-y-[-50%] flex justify-center text-[20px] gap-y-6 w-max px-3 h-40 rounded-r-xl z-10 bg-gradient-to-b from-[#df8908] to-[#b415ff]">
         <a
           href="https://www.facebook.com/profile.php?id=100008404149002"
           target="blank"

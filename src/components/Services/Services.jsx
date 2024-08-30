@@ -1,6 +1,6 @@
 // import './Services.css'
 import design from '../../assets/design.svg'
-import services_data from '../../assets/Services_data'
+import services_data from './Services_data'
 import right_arrow from '../../assets/right_arrow.svg'
 
 function Services() {

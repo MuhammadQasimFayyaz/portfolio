@@ -2,6 +2,7 @@
 import design from '../../assets/design.svg'
 import { useInView } from 'react-intersection-observer'
 import CountUp from 'react-countup'
+import about_img from '../../assets/about_img.png'
 
 function About() {
 
@@ -15,7 +16,7 @@ function About() {
       </div>
       <div className="about-sections flex flex-col lg:flex-row gap-[40px] sm:gap-[50px] md:gap-[60px] lg:gap-[80px]">
         <div className="about-left">
-          <img src="" alt="" className="w-[150px] sm:w-[180px] md:w-[200px] lg:w-[220px] h-auto" />
+          <img src='' alt="" className="w-[150px] sm:w-[180px] md:w-[200px] lg:w-[220px] h-auto" />
         </div>
         <div className="about-right flex flex-col gap-[40px] sm:gap-[50px] md:gap-[60px] lg:gap-[80px]">
           <div className="about-para flex flex-col gap-[15px] sm:gap-[20px] text-[18px] sm:text-[22px] md:text-[24px] lg:text-[26px] font-normal">

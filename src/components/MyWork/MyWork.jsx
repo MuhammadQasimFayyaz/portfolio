@@ -1,6 +1,6 @@
 // import './MyWork.css'
 import design from '../../assets/design.svg'
-import mywork_data from '../../assets/mywork_data'
+import mywork_data from './mywork_data'
 import right_arrow from '../../assets/right_arrow.svg'
 
 function MyWork() {

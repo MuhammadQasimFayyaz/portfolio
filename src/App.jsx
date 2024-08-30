@@ -7,6 +7,7 @@ import Hero from "./components/Hero/Hero"
 import MyWork from "./components/MyWork/MyWork"
 import Navbar from "./components/Navbar/Navbar"
 import Services from "./components/Services/Services"
+import Skills from "./components/Skills/Skills"
 // import SnakeLine from "./components/snakeline/Snakeline"
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
       <Hero />
       <About />
       <Services />
+      <Skills />
       <MyWork />
       <Contact />
       <Footer />

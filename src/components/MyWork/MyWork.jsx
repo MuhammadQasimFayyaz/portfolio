@@ -17,7 +17,7 @@ function MyWork() {
               key={index}
               src={work.w_img}
               alt=""
-              className="transition-transform duration-300 cursor-pointer hover:scale-[1.10] hover:border-2 hover:border-[#ff00ff] hover:rounded-[10px] w-full h-full object-cover"
+              className="transition-transform duration-300 cursor-pointer border-2 border-transparent hover:border-2 hover:border-[#ff00ff] hover:rounded-[10px] w-full h-full object-cover"
             />
           )
         })}

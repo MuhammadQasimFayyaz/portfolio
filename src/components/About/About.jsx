@@ -23,20 +23,20 @@ function About() {
             <p>My passion for frontend development is not only reflected in my extensive experience but also in the enthusiasm and dedication I bring to each project.</p>
           </div>
           <div className="about-skills flex flex-col gap-[15px] sm:gap-[20px] md:gap-[25px] lg:gap-[30px]">
-            <div className="about-skill flex gap-[20px] sm:gap-[30px] md:gap-[40px] lg:gap-[50px] items-center transition-transform duration-300 hover:scale-[1.05]">
-              <p className="min-w-[100px] sm:min-w-[120px] md:min-w-[140px] lg:min-w-[150px] text-[18px] sm:text-[20px] md:text-[22px] lg:text-[24px] font-medium">HTML & CSS</p>
+            <div className="about-skill flex gap-[20px] sm:gap-[30px] md:gap-[40px] lg:gap-[50px] items-center transition-transform duration-300 group">
+              <p className="min-w-[100px] sm:min-w-[120px] md:min-w-[140px] lg:min-w-[150px] text-[18px] sm:text-[20px] md:text-[22px] lg:text-[24px] font-medium transition-all duration-300 group-hover:bg-gradient-to-r group-hover:from-[#df8908] group-hover:to-[#b415ff] group-hover:bg-clip-text group-hover:text-transparent">HTML & CSS</p>
               <hr className="w-[60%] sm:w-[70%] md:w-[75%] lg:w-[80%] outline-none border-none h-[6px] sm:h-[7px] md:h-[8px] rounded-full bg-gradient-to-r from-[#df8908] to-[#b415ff]" />
             </div>
-            <div className="about-skill flex gap-[20px] sm:gap-[30px] md:gap-[40px] lg:gap-[50px] items-center transition-transform duration-300 hover:scale-[1.05]">
-              <p className="min-w-[100px] sm:min-w-[120px] md:min-w-[140px] lg:min-w-[150px] text-[18px] sm:text-[20px] md:text-[22px] lg:text-[24px] font-medium">JavaScript</p>
+            <div className="about-skill flex gap-[20px] sm:gap-[30px] md:gap-[40px] lg:gap-[50px] items-center transition-transform duration-300 group">
+              <p className="min-w-[100px] sm:min-w-[120px] md:min-w-[140px] lg:min-w-[150px] text-[18px] sm:text-[20px] md:text-[22px] lg:text-[24px] font-medium transition-all duration-300 group-hover:bg-gradient-to-r group-hover:from-[#df8908] group-hover:to-[#b415ff] group-hover:bg-clip-text group-hover:text-transparent">JavaScript</p>
               <hr className="w-[50%] sm:w-[60%] md:w-[65%] lg:w-[70%] outline-none border-none h-[6px] sm:h-[7px] md:h-[8px] rounded-full bg-gradient-to-r from-[#df8908] to-[#b415ff]" />
             </div>
-            <div className="about-skill flex gap-[20px] sm:gap-[30px] md:gap-[40px] lg:gap-[50px] items-center transition-transform duration-300 hover:scale-[1.05]">
-              <p className="min-w-[100px] sm:min-w-[120px] md:min-w-[140px] lg:min-w-[150px] text-[18px] sm:text-[20px] md:text-[22px] lg:text-[24px] font-medium">ReactJS</p>
+            <div className="about-skill flex gap-[20px] sm:gap-[30px] md:gap-[40px] lg:gap-[50px] items-center transition-transform duration-300 group">
+              <p className="min-w-[100px] sm:min-w-[120px] md:min-w-[140px] lg:min-w-[150px] text-[18px] sm:text-[20px] md:text-[22px] lg:text-[24px] font-medium transition-all duration-300 group-hover:bg-gradient-to-r group-hover:from-[#df8908] group-hover:to-[#b415ff] group-hover:bg-clip-text group-hover:text-transparent">ReactJS</p>
               <hr className="w-[45%] sm:w-[55%] md:w-[60%] lg:w-[65%] outline-none border-none h-[6px] sm:h-[7px] md:h-[8px] rounded-full bg-gradient-to-r from-[#df8908] to-[#b415ff]" />
             </div>
-            <div className="about-skill flex gap-[20px] sm:gap-[30px] md:gap-[40px] lg:gap-[50px] items-center transition-transform duration-300 hover:scale-[1.05]">
-              <p className="min-w-[100px] sm:min-w-[120px] md:min-w-[140px] lg:min-w-[150px] text-[18px] sm:text-[20px] md:text-[22px] lg:text-[24px] font-medium">WordPress</p>
+            <div className="about-skill flex gap-[20px] sm:gap-[30px] md:gap-[40px] lg:gap-[50px] items-center transition-transform duration-300 group">
+              <p className="min-w-[100px] sm:min-w-[120px] md:min-w-[140px] lg:min-w-[150px] text-[18px] sm:text-[20px] md:text-[22px] lg:text-[24px] font-medium transition-all duration-300 group-hover:bg-gradient-to-r group-hover:from-[#df8908] group-hover:to-[#b415ff] group-hover:bg-clip-text group-hover:text-transparent">WordPress</p>
               <hr className="w-[50%] sm:w-[60%] md:w-[65%] lg:w-[70%] outline-none border-none h-[6px] sm:h-[7px] md:h-[8px] rounded-full bg-gradient-to-r from-[#df8908] to-[#b415ff]" />
             </div>
           </div>

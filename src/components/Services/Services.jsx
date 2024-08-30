@@ -10,12 +10,12 @@ function Services() {
         <h1 className="relative px-[20px] sm:px-[25px] md:px-[30px] text-[40px] sm:text-[60px] md:text-[70px] lg:text-[80px] font-semibold">My Services</h1>
         <img src={design} alt="" className="absolute bottom-[-10px] right-0 z-[-1] w-[100px] sm:w-[120px] md:w-[140px] lg:w-[160px]" />
       </div>
-      <div className="services-container grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-[20px] sm:gap-[30px] md:gap-[40px] lg:gap-[50px] mb-[50px] sm:mb-[60px] md:mb-[70px] lg:mb-[80px]">
+      <div className="services-container grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-[15px] sm:gap-[20px] md:gap-[30px] lg:gap-[40px] mb-[50px] sm:mb-[60px] md:mb-[70px] lg:mb-[80px]">
         {services_data.map((service, index) => {
           return (
             <div
               key={index}
-              className="services-format flex flex-col justify-center gap-[20px] sm:gap-[25px] md:gap-[30px] px-[20px] sm:px-[25px] md:px-[30px] py-[40px] sm:py-[50px] md:py-[60px] rounded-[10px] border-2 border-white transition-all duration-400 cursor-pointer hover:border-[#ff00ff] hover:bg-gradient-to-br from-[#3f0028] to-[#582300] transform hover:scale-[1.05]"
+              className="services-format flex flex-col justify-center gap-[20px] sm:gap-[25px] md:gap-[30px] px-[20px] sm:px-[25px] md:px-[30px] py-[40px] sm:py-[50px] md:py-[60px] rounded-[10px] border-2 border-white transition-all duration-400 cursor-pointer hover:border-[#ff00ff] hover:bg-gradient-to-br from-[#3f0028] to-[#582300] transform"
             >
               <h3 className="text-[24px] sm:text-[26px] md:text-[28px] font-semibold">{service.s_no}</h3>
               <h2 className="text-[30px] sm:text-[34px] md:text-[38px] font-extrabold bg-gradient-to-r from-[#df8908] to-[#b415ff] bg-clip-text text-transparent">

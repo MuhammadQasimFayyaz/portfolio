@@ -3,24 +3,36 @@ import './Dot.css';
 
 const Dot = () => {
   const [position, setPosition] = useState({ x: 0, y: 0 });
+  const [visible, setVisible] = useState(false);
 
   useEffect(() => {
     const handleMouseMove = (event) => {
-      // Get viewport dimensions
       const viewportWidth = window.innerWidth;
       const viewportHeight = window.innerHeight;
 
-      // Constrain the dot position within the viewport
-      const x = Math.min(event.clientX, viewportWidth - 8);
-      const y = Math.min(event.clientY, viewportHeight - 8);
+      setPosition({
+        x: Math.min(event.clientX, viewportWidth - 8),
+        y: Math.min(event.clientY, viewportHeight - 8),
+      });
+      setVisible(true);
+    };
 
-      setPosition({ x, y });
+    const handleMouseOut = () => {
+      setVisible(false);
+    };
+
+    const handleTouchStart = () => {
+      setVisible(false);
     };
 
     document.addEventListener('mousemove', handleMouseMove);
+    document.addEventListener('mouseout', handleMouseOut);
+    document.addEventListener('touchstart', handleTouchStart);
 
     return () => {
       document.removeEventListener('mousemove', handleMouseMove);
+      document.removeEventListener('mouseout', handleMouseOut);
+      document.removeEventListener('touchstart', handleTouchStart);
     };
   }, []);
 
@@ -29,6 +41,7 @@ const Dot = () => {
       className="dot"
       style={{
         transform: `translate(${position.x}px, ${position.y}px)`,
+        visibility: visible ? 'visible' : 'hidden',
       }}
     />
   );

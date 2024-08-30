@@ -17,8 +17,15 @@ function Navbar() {
     menuRef.current.style.right = '-350px'
   }
 
+  const handleNavItemClick = () => {
+    // setMenu(section);
+    if (window.innerWidth < 768 && menuRef.current) {
+      menuRef.current.style.right = '-350px';
+    }
+  }
+
   return (
-    <div className='navbar flex items-center justify-between px-[20px] sm:px-[30px] md:px-[50px] lg:px-[80px] my-[20px] gap-[10px]'>
+    <div className='navbar flex items-center justify-between px-[20px] sm:px-[30px] md:px-[40px] lg:px-[80px] my-[20px] gap-[10px]'>
       <a href='/' className='text-white text-[20px] sm:text-[24px] no-underline'>
         MQF
       </a>
@@ -40,7 +47,7 @@ function Navbar() {
         <li className='flex flex-col md:flex-col lg:flex-col gap-[5px] cursor-pointer items-center'>
           <AnchorLink
             className='anchor-link no-underline text-white'
-            href='#home'>
+            href='#home' onClick={() => handleNavItemClick()}>
             <p onClick={() => setMenu('home')}>Home</p>
           </AnchorLink>
           {menu === 'home' && <img src={underline} alt='' className='flex mx-auto' />}
@@ -49,7 +56,7 @@ function Navbar() {
           <AnchorLink
             className='anchor-link no-underline text-white'
             offset={50}
-            href='#about'>
+            href='#about' onClick={() => handleNavItemClick()}>
             <p onClick={() => setMenu('about')}>About me</p>
           </AnchorLink>
           {menu === 'about' && <img src={underline} alt='' className='flex mx-auto' />}
@@ -58,7 +65,7 @@ function Navbar() {
           <AnchorLink
             className='anchor-link no-underline text-white'
             offset={50}
-            href='#services'>
+            href='#services' onClick={() => handleNavItemClick()}>
             <p onClick={() => setMenu('services')}>Services</p>
           </AnchorLink>
           {menu === 'services' && <img src={underline} alt='' className='flex mx-auto' />}
@@ -67,7 +74,7 @@ function Navbar() {
           <AnchorLink
             className='anchor-link no-underline text-white'
             offset={50}
-            href='#skills'>
+            href='#skills' onClick={() => handleNavItemClick()}>
             <p onClick={() => setMenu('skills')}>Skills</p>
           </AnchorLink>
           {menu === 'skills' && <img src={underline} alt='' className='flex mx-auto' />}
@@ -76,7 +83,7 @@ function Navbar() {
           <AnchorLink
             className='anchor-link no-underline text-white'
             offset={50}
-            href='#work'>
+            href='#work' onClick={() => handleNavItemClick()}>
             <p onClick={() => setMenu('work')}>Portfolio</p>
           </AnchorLink>
           {menu === 'work' && <img src={underline} alt='' className='flex mx-auto' />}
@@ -85,7 +92,7 @@ function Navbar() {
           <AnchorLink
             className='anchor-link no-underline text-white'
             offset={50}
-            href='#contact'>
+            href='#contact' onClick={() => handleNavItemClick()}>
             <p onClick={() => setMenu('contact')}>Contact</p>
           </AnchorLink>
           {menu === 'contact' && <img src={underline} alt='' className='flex mx-auto' />}
@@ -94,7 +101,7 @@ function Navbar() {
       <AnchorLink
         className='anchor-link no-underline text-white hidden md:block'
         offset={50}
-        href='#contact'>
+        href='#contact' onClick={() => handleNavItemClick()}>
         <div className='nav-connect py-[15px] sm:py-[15px] px-[10px] sm:px-[40px] rounded-full bg-gradient-to-r from-[#da7c25] to-[#b923e1] text-[20px] sm:text-[22px] cursor-pointer transition-transform duration-500 hover:bg-gradient-to-r hover:to-[#da7c25] hover:from-[#b923e1]'>
           Connect with me
         </div>

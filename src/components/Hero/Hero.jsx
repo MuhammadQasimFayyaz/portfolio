@@ -7,7 +7,7 @@ import image from '../../assets/image.png'
 
 function Hero() {
 
-  const PDF_FILE_URL = "../../../public/Resume.pdf"
+  const PDF_FILE_URL = "https://muhammad-qasim-fayyaz.vercel.app/Resume.pdf"
   const downloadFileAtURL = (url) => {
     const fileName = url.split("/").pop()
     const aTag = document.createElement("a")

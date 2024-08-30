@@ -2,7 +2,7 @@
 import design from '../../assets/design.svg'
 import { useInView } from 'react-intersection-observer'
 import CountUp from 'react-countup'
-import about_img from '../../assets/about_img.png'
+// import about_img from '../../assets/about_img.png'
 
 function About() {
 

@@ -22,9 +22,9 @@ function MyWork() {
           )
         })}
       </div>
-      <div className="mywork-showmore flex items-center justify-center gap-[10px] sm:gap-[12px] md:gap-[15px] rounded-full border-2 border-white py-[15px] sm:py-[20px] md:py-[30px] px-[30px] sm:px-[40px] md:px-[60px] text-[18px] sm:text-[20px] md:text-[22px] font-medium mb-[50px] sm:mb-[60px] md:mb-[70px] lg:mb-[80px] transition-all duration-600 cursor-pointer capitalize hover:gap-[20px]">
+      <div className="mywork-showmore flex items-center justify-center gap-[10px] sm:gap-[12px] md:gap-[15px] rounded-full border-2 border-white dark:border-[#161513] py-[15px] sm:py-[20px] md:py-[30px] px-[30px] sm:px-[40px] md:px-[60px] text-[18px] sm:text-[20px] md:text-[22px] font-medium mb-[50px] sm:mb-[60px] md:mb-[70px] lg:mb-[80px] transition-all duration-600 cursor-pointer capitalize hover:gap-[20px]">
         <p>Show more</p>
-        <img src={right_arrow} alt="" className="w-[16px] sm:w-[18px] md:w-[20px]" />
+        <img src={right_arrow} alt="" className="w-[16px] sm:w-[18px] md:w-[20px] dark:filter dark:invert" />
       </div>
     </div>
   )

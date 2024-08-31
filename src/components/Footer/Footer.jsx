@@ -3,7 +3,7 @@
 function Footer() {
   const currentyear = new Date().getFullYear()
   return (
-    <div className="footer mx-[20px] sm:mx-[40px] md:mx-[70px] my-[30px] sm:my-[40px] md:my-[50px]">
+    <div className="footer mx-[20px] sm:mx-[40px] md:mx-[70px]">
       <hr className="border-gray-300" />
       <div className="footer-bottom text-center text-[14px] sm:text-[16px] md:text-[18px] py-[10px] sm:py-[15px] md:py-[20px]">
         <p className="footer-bottom-mid">

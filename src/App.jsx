@@ -1,5 +1,6 @@
 import About from "./components/About/About"
 import Contact from "./components/Contact/Contact"
+import DarkModeToggle from "./components/DarkModeToggle"
 import Dot from "./components/Dot/Dot"
 import Footer from "./components/Footer/Footer"
 import GoToTop from "./components/GoToTop/GoToTop"
@@ -16,6 +17,7 @@ function App() {
     <>
       <Dot />
       {/* <SnakeLine /> */}
+      <DarkModeToggle />
       <Navbar />
       <Hero />
       <About />

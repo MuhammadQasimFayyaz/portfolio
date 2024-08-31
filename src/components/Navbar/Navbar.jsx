@@ -26,7 +26,7 @@ function Navbar() {
 
   return (
     <div className='navbar flex items-center justify-between px-[20px] sm:px-[30px] md:px-[40px] lg:px-[80px] my-[20px] gap-[10px]'>
-      <a href='/' className='text-white text-[20px] sm:text-[24px] no-underline'>
+      <a href='/' className='text-[20px] sm:text-[24px] no-underline'>
         MQF
       </a>
       <img
@@ -46,7 +46,7 @@ function Navbar() {
         />
         <li className='flex flex-col md:flex-col lg:flex-col gap-[5px] cursor-pointer items-center'>
           <AnchorLink
-            className='anchor-link no-underline text-white'
+            className='anchor-link no-underline'
             href='#home' onClick={() => handleNavItemClick()}>
             <p onClick={() => setMenu('home')}>Home</p>
           </AnchorLink>
@@ -54,7 +54,7 @@ function Navbar() {
         </li>
         <li className='flex flex-col md:flex-col lg:flex-col gap-[5px] cursor-pointer items-center'>
           <AnchorLink
-            className='anchor-link no-underline text-white'
+            className='anchor-link no-underline'
             offset={50}
             href='#about' onClick={() => handleNavItemClick()}>
             <p onClick={() => setMenu('about')}>About me</p>
@@ -63,7 +63,7 @@ function Navbar() {
         </li>
         <li className='flex flex-col md:flex-col lg:flex-col gap-[5px] cursor-pointer items-center'>
           <AnchorLink
-            className='anchor-link no-underline text-white'
+            className='anchor-link no-underline'
             offset={50}
             href='#services' onClick={() => handleNavItemClick()}>
             <p onClick={() => setMenu('services')}>Services</p>
@@ -72,7 +72,7 @@ function Navbar() {
         </li>
         <li className='flex flex-col md:flex-col lg:flex-col gap-[5px] cursor-pointer items-center'>
           <AnchorLink
-            className='anchor-link no-underline text-white'
+            className='anchor-link no-underline'
             offset={50}
             href='#skills' onClick={() => handleNavItemClick()}>
             <p onClick={() => setMenu('skills')}>Skills</p>
@@ -81,7 +81,7 @@ function Navbar() {
         </li>
         <li className='flex flex-col md:flex-col lg:flex-col gap-[5px] cursor-pointer items-center'>
           <AnchorLink
-            className='anchor-link no-underline text-white'
+            className='anchor-link no-underline'
             offset={50}
             href='#work' onClick={() => handleNavItemClick()}>
             <p onClick={() => setMenu('work')}>Portfolio</p>
@@ -90,7 +90,7 @@ function Navbar() {
         </li>
         <li className='flex flex-col md:flex-col lg:flex-col gap-[5px] cursor-pointer items-center'>
           <AnchorLink
-            className='anchor-link no-underline text-white'
+            className='anchor-link no-underline'
             offset={50}
             href='#contact' onClick={() => handleNavItemClick()}>
             <p onClick={() => setMenu('contact')}>Contact</p>
@@ -99,7 +99,7 @@ function Navbar() {
         </li>
       </ul>
       <AnchorLink
-        className='anchor-link no-underline text-white hidden md:block'
+        className='anchor-link no-underline hidden md:block'
         offset={50}
         href='#contact' onClick={() => handleNavItemClick()}>
         <div className='nav-connect py-[15px] sm:py-[15px] px-[10px] sm:px-[40px] rounded-full bg-gradient-to-r from-[#da7c25] to-[#b923e1] text-[20px] sm:text-[22px] cursor-pointer transition-transform duration-500 hover:bg-gradient-to-r hover:to-[#da7c25] hover:from-[#b923e1]'>

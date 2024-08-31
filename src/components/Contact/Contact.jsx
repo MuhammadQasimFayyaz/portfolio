@@ -3,8 +3,13 @@ import design from "../../assets/design.svg";
 import mail from "../../assets/mail.svg";
 import phone from "../../assets/phone.svg";
 import location from "../../assets/location.svg";
+import { useState } from "react";
 
 function Contact() {
+
+  const [notification, setNotification] = useState('')
+  const [showNotification, setShowNotofication] = useState(false)
+
   const onSubmit = async (event) => {
     event.preventDefault();
     const formData = new FormData(event.target);
@@ -27,7 +32,12 @@ function Contact() {
     }).then((res) => res.json());
 
     if (res.success) {
-      alert(res.message);
+      setNotification(res.message)
+      setShowNotofication(true)
+
+      setTimeout(() => {
+        setShowNotofication(false)
+      }, 5000);
     }
   };
 
@@ -134,6 +144,11 @@ function Contact() {
           >
             submit now
           </button>
+          {showNotification && ( // Show notification if showNotification is true
+            <div className="notification bg-green-500 text-white p-4 rounded-md">
+              {notification}
+            </div>
+          )}
         </form>
       </div>
     </div>

@@ -32,21 +32,21 @@ function Navbar() {
       <img
         src={menu_bar}
         alt='menu bar'
-        className='nav-mob-open block md:hidden absolute right-[20px] sm:right-[30px]'
+        className='nav-mob-open block md:hidden absolute right-[20px] sm:right-[30px] dark:filter dark:invert'
         onClick={openMenu}
       />
       <ul
         ref={menuRef}
-        className='nav-menu flex flex-col md:flex-row md:items-center list-none gap-[20px] sm:gap-[30px] md:gap-[40px] text-[18px] sm:text-[20px] bg-[#1e0016] md:bg-transparent fixed md:relative top-0 right-[-350px] md:right-0 h-full md:h-auto w-[300px] sm:w-[350px] md:w-auto z-10 transition-transform duration-500'>
+        className='nav-menu flex flex-col md:flex-row md:items-center list-none gap-[20px] sm:gap-[30px] md:gap-[40px] text-[18px] sm:text-[20px] bg-[#1e0016] dark:bg-white md:bg-transparent fixed md:relative top-0 right-[-350px] md:right-0 h-full md:h-auto w-[300px] sm:w-[350px] md:w-auto z-10 transition-transform duration-500 pt-12 md:pt-0'>
         <img
-          className='nav-mob-close block md:hidden relative top-[30px] left-[250px] sm:left-[290px] w-[30px]'
+          className='nav-mob-close block md:hidden relative top-[15px] left-[250px] sm:left-[290px] w-[30px] dark:filter dark:invert'
           src={close}
           alt=''
           onClick={closeMenu}
         />
         <li className='flex flex-col md:flex-col lg:flex-col gap-[5px] cursor-pointer items-center'>
           <AnchorLink
-            className='anchor-link no-underline'
+            className='anchor-link no-underline dark:text-black'
             href='#home' onClick={() => handleNavItemClick()}>
             <p onClick={() => setMenu('home')}>Home</p>
           </AnchorLink>
@@ -54,7 +54,7 @@ function Navbar() {
         </li>
         <li className='flex flex-col md:flex-col lg:flex-col gap-[5px] cursor-pointer items-center'>
           <AnchorLink
-            className='anchor-link no-underline'
+            className='anchor-link no-underline dark:text-black'
             offset={50}
             href='#about' onClick={() => handleNavItemClick()}>
             <p onClick={() => setMenu('about')}>About me</p>
@@ -63,7 +63,7 @@ function Navbar() {
         </li>
         <li className='flex flex-col md:flex-col lg:flex-col gap-[5px] cursor-pointer items-center'>
           <AnchorLink
-            className='anchor-link no-underline'
+            className='anchor-link no-underline dark:text-black'
             offset={50}
             href='#services' onClick={() => handleNavItemClick()}>
             <p onClick={() => setMenu('services')}>Services</p>
@@ -72,7 +72,7 @@ function Navbar() {
         </li>
         <li className='flex flex-col md:flex-col lg:flex-col gap-[5px] cursor-pointer items-center'>
           <AnchorLink
-            className='anchor-link no-underline'
+            className='anchor-link no-underline dark:text-black'
             offset={50}
             href='#skills' onClick={() => handleNavItemClick()}>
             <p onClick={() => setMenu('skills')}>Skills</p>
@@ -81,7 +81,7 @@ function Navbar() {
         </li>
         <li className='flex flex-col md:flex-col lg:flex-col gap-[5px] cursor-pointer items-center'>
           <AnchorLink
-            className='anchor-link no-underline'
+            className='anchor-link no-underline dark:text-black'
             offset={50}
             href='#work' onClick={() => handleNavItemClick()}>
             <p onClick={() => setMenu('work')}>Portfolio</p>
@@ -90,7 +90,7 @@ function Navbar() {
         </li>
         <li className='flex flex-col md:flex-col lg:flex-col gap-[5px] cursor-pointer items-center'>
           <AnchorLink
-            className='anchor-link no-underline'
+            className='anchor-link no-underline dark:text-black'
             offset={50}
             href='#contact' onClick={() => handleNavItemClick()}>
             <p onClick={() => setMenu('contact')}>Contact</p>

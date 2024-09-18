@@ -15,17 +15,17 @@ function Services() {
           return (
             <div
               key={index}
-              className="services-format flex flex-col justify-center gap-[20px] sm:gap-[25px] md:gap-[30px] px-[20px] sm:px-[25px] md:px-[30px] py-[40px] sm:py-[50px] md:py-[60px] rounded-[10px] border-2 border-white dark:border-[#161513] transition-all duration-400 cursor-pointer hover:border-[#ff00ff] hover:bg-gradient-to-br from-[#3f0028] to-[#582300] transform group"
+              className="services-format flex flex-col justify-center gap-[20px] sm:gap-[25px] md:gap-[30px] px-[20px] sm:px-[25px] md:px-[30px] py-[40px] sm:py-[50px] md:py-[60px] rounded-[10px] border-2 dark:border-white border-[#b415ff] transition-all duration-400 cursor-pointer hover:border-[#ff00ff] hover:bg-gradient-to-br from-[#3f0028] to-[#582300] transform group"
             >
-              <h3 className="text-[24px] sm:text-[26px] md:text-[28px] font-semibold dark:group-hover:text-white">{service.s_no}</h3>
+              <h3 className="text-[24px] sm:text-[26px] md:text-[28px] font-semibold group-hover:text-white">{service.s_no}</h3>
               <h2 className="text-[30px] sm:text-[34px] md:text-[38px] font-extrabold bg-gradient-to-r from-[#df8908] to-[#b415ff] bg-clip-text text-transparent">
                 {service.s_name}
               </h2>
-              <p className="text-[#d4d4d4] text-[18px] sm:text-[20px] md:text-[24px] leading-[28px] sm:leading-[32px] md:leading-[36px] max-w-[250px] sm:max-w-[275px] md:max-w-[300px] dark:text-[#161513] dark:group-hover:text-white">
+              <p className="dark:text-[#d4d4d4] text-[18px] sm:text-[20px] md:text-[24px] leading-[28px] sm:leading-[32px] md:leading-[36px] max-w-[250px] sm:max-w-[275px] md:max-w-[300px] text-[#161513] group-hover:text-white">
                 {service.s_desc}
               </p>
               <div className="services-readmore flex gap-[10px] sm:gap-[15px] md:gap-[20px] items-center mt-[15px] sm:mt-[18px] md:mt-[20px]">
-                <p className='text-[14px] sm:text-[15px] md:text-[16px] dark:group-hover:text-white'>Read More</p>
+                <p className='text-[14px] sm:text-[15px] md:text-[16px] group-hover:text-white'>Read More</p>
                 <img src={right_arrow} alt="" className="w-[16px] sm:w-[18px] md:w-[20px]" />
               </div>
             </div>

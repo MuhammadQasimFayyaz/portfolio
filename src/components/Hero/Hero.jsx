@@ -66,7 +66,7 @@ function Hero() {
             Connect with me
           </div>
         </AnchorLink>
-        <button onClick={() => {downloadFileAtURL(PDF_FILE_URL)}} className="hero-resume flex items-center py-[15px] sm:py-[22px] md:py-[25px] px-[20px] sm:px-[55px] md:px-[70px] rounded-full border-2 border-white dark:border-[#161513] cursor-pointer transition duration-500 hover:border-[#b415ff] dark:hover:border-[#b415ff]">
+        <button onClick={() => {downloadFileAtURL(PDF_FILE_URL)}} className="hero-resume flex items-center py-[15px] sm:py-[22px] md:py-[25px] px-[20px] sm:px-[55px] md:px-[70px] rounded-full border-2 cursor-pointer transition duration-500 border-[#b415ff] dark:hover:border-[#b415ff] hover:bg-[#b415ff] ">
           My Resume <RiDownload2Fill className="ml-2" />
         </button>
       </div>

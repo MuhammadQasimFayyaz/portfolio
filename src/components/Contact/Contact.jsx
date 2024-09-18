@@ -61,14 +61,14 @@ function Contact() {
           <h1 className="text-[40px] sm:text-[50px] md:text-[60px] lg:text-[70px] font-bold bg-gradient-to-r from-[#df8908] to-[#b415ff] bg-clip-text text-transparent">
             Let`s talk
           </h1>
-          <p className="max-w-[300px] sm:max-w-[400px] md:max-w-[500px] lg:max-w-[550px] text-[#d8d8d8] dark:text-[#161513] text-[16px] sm:text-[18px] md:text-[20px] leading-[30px] sm:leading-[32px] md:leading-[35px]">
+          <p className="max-w-[300px] sm:max-w-[400px] md:max-w-[500px] lg:max-w-[550px] dark:text-[#d8d8d8] text-[#161513] text-[16px] sm:text-[18px] md:text-[20px] leading-[30px] sm:leading-[32px] md:leading-[35px]">
             I`m currently available to take on new projects, so feel free to
             send me a message about anything that you want me to work on. You
             can contact me anytime.
           </p>
-          <div className="contact-details flex flex-col gap-[20px] sm:gap-[25px] md:gap-[30px] text-[#d8d8d8] dark:text-[#161513] text-[18px] sm:text-[20px] md:text-[22px]">
+          <div className="contact-details flex flex-col gap-[20px] sm:gap-[25px] md:gap-[30px] dark:text-[#d8d8d8] text-[#161513] text-[18px] sm:text-[20px] md:text-[22px]">
             <div className="contact-detail flex items-center gap-[15px] sm:gap-[18px] md:gap-[20px]">
-              <img src={mail} alt="" className="w-[8%] md:w-[6%] dark:filter dark:invert" />
+              <img src={mail} alt="" className="w-[8%] md:w-[6%] filter invert dark:invert-0" />
               <a href="mailto:qasim.dev404@gmail.com" className="break-words">
                 qasim.dev404@gmail.com
               </a>
@@ -77,7 +77,7 @@ function Contact() {
               <img
                 src={phone}
                 alt=""
-                className="w-[8%] md:w-[6%] dark:filter dark:invert"
+                className="w-[8%] md:w-[6%] filter invert dark:invert-0"
               />
               <a href="tel:+923351748254">+92 3351748254</a>
             </div>
@@ -85,7 +85,7 @@ function Contact() {
               <img
                 src={location}
                 alt=""
-                className="w-[8%] md:w-[6%] dark:filter dark:invert"
+                className="w-[8%] md:w-[6%] filter invert dark:invert-0"
               />
               <p>Pakistan</p>
             </div>
@@ -97,7 +97,7 @@ function Contact() {
         >
           <label
             htmlFor="name"
-            className="text-[#d8d8d8] dark:text-[#161513] text-[18px] sm:text-[20px] md:text-[22px] font-medium capitalize"
+            className="dark:text-[#d8d8d8] text-[#161513] text-[18px] sm:text-[20px] md:text-[22px] font-medium capitalize"
           >
             your name
           </label>
@@ -107,11 +107,11 @@ function Contact() {
             id="name"
             placeholder="Enter your name"
             required
-            className="w-[300px] sm:w-[450px] md:w-[550px] lg:w-[100%] h-[50px] sm:h-[60px] md:h-[70px] lg:h-[78px] pl-[15px] rounded-[4px] bg-[#32323c] text-[#a0a0a0] dark:text-white text-[16px] sm:text-[18px] md:text-[20px] border-none"
+            className="w-[300px] sm:w-[450px] md:w-[550px] lg:w-[100%] h-[50px] sm:h-[60px] md:h-[70px] lg:h-[78px] pl-[15px] rounded-[4px] bg-[#32323c] dark:text-[#a0a0a0] text-white text-[16px] sm:text-[18px] md:text-[20px] border-none"
           />
           <label
             htmlFor="email"
-            className="text-[#d8d8d8] dark:text-[#161513] text-[18px] sm:text-[20px] md:text-[22px] font-medium capitalize"
+            className="dark:text-[#d8d8d8] text-[#161513] text-[18px] sm:text-[20px] md:text-[22px] font-medium capitalize"
           >
             your email
           </label>
@@ -121,11 +121,11 @@ function Contact() {
             id="email"
             placeholder="Enter your email"
             required
-            className="w-[300px] sm:w-[450px] md:w-[550px] lg:w-[100%] h-[50px] sm:h-[60px] md:h-[70px] lg:h-[78px] pl-[15px] rounded-[4px] bg-[#32323c] text-[#a0a0a0] dark:text-white text-[16px] sm:text-[18px] md:text-[20px] border-none"
+            className="w-[300px] sm:w-[450px] md:w-[550px] lg:w-[100%] h-[50px] sm:h-[60px] md:h-[70px] lg:h-[78px] pl-[15px] rounded-[4px] bg-[#32323c] dark:text-[#a0a0a0] text-white text-[16px] sm:text-[18px] md:text-[20px] border-none"
           />
           <label
             htmlFor="mess"
-            className="text-[#d8d8d8] dark:text-[#161513] text-[18px] sm:text-[20px] md:text-[22px] font-medium capitalize"
+            className="dark:text-[#d8d8d8] text-[#161513] text-[18px] sm:text-[20px] md:text-[22px] font-medium capitalize"
           >
             Write your message here
           </label>
@@ -135,7 +135,7 @@ function Contact() {
             rows="8"
             placeholder="Enter your message"
             required
-            className="w-[300px] sm:w-[400px] md:w-[550px] lg:w-[100%] h-auto p-[20px] sm:p-[22px] md:p-[25px] rounded-[4px] bg-[#32323c] text-[#a0a0a0] dark:text-white text-[16px] sm:text-[18px] md:text-[20px] border-none"
+            className="w-[300px] sm:w-[400px] md:w-[550px] lg:w-[100%] h-auto p-[20px] sm:p-[22px] md:p-[25px] rounded-[4px] bg-[#32323c] dark:text-[#a0a0a0] text-white text-[16px] sm:text-[18px] md:text-[20px] border-none"
           ></textarea>
           <input type="hidden" name="subject" />
           <button

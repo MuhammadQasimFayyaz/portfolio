@@ -39,7 +39,7 @@ function Navbar() {
         ref={menuRef}
         className='nav-menu flex flex-col md:flex-row md:items-center list-none gap-[20px] sm:gap-[30px] md:gap-[40px] text-[18px] sm:text-[20px] bg-[#1e0016] dark:bg-[#161513] md:bg-transparent fixed md:relative top-0 right-[-350px] md:right-0 h-full md:h-auto w-[300px] sm:w-[350px] md:w-auto z-10 transition-transform duration-500 pt-1 md:pt-0'>
         <img
-          className='nav-mob-close block md:hidden relative top-[15px] left-[250px] sm:left-[290px] w-[30px] mb-10 filter invert dark:invert-0'
+          className='nav-mob-close block md:hidden relative top-[15px] left-[250px] sm:left-[290px] w-[30px] mb-10 filter invert-0'
           src={close}
           alt=''
           onClick={closeMenu}

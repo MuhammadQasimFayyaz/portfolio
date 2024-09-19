@@ -46,7 +46,7 @@ function Navbar() {
         />
         <li className='flex flex-col md:flex-col lg:flex-col gap-[5px] cursor-pointer items-center'>
           <AnchorLink
-            className='anchor-link no-underline dark:text-white'
+            className='anchor-link no-underline text-white'
             href='#home' onClick={() => handleNavItemClick()}>
             <p onClick={() => setMenu('home')}>Home</p>
           </AnchorLink>
@@ -54,7 +54,7 @@ function Navbar() {
         </li>
         <li className='flex flex-col md:flex-col lg:flex-col gap-[5px] cursor-pointer items-center'>
           <AnchorLink
-            className='anchor-link no-underline dark:text-white'
+            className='anchor-link no-underline text-white'
             offset={50}
             href='#about' onClick={() => handleNavItemClick()}>
             <p onClick={() => setMenu('about')}>About me</p>
@@ -63,7 +63,7 @@ function Navbar() {
         </li>
         <li className='flex flex-col md:flex-col lg:flex-col gap-[5px] cursor-pointer items-center'>
           <AnchorLink
-            className='anchor-link no-underline dark:text-white'
+            className='anchor-link no-underline text-white'
             offset={50}
             href='#services' onClick={() => handleNavItemClick()}>
             <p onClick={() => setMenu('services')}>Services</p>
@@ -72,7 +72,7 @@ function Navbar() {
         </li>
         <li className='flex flex-col md:flex-col lg:flex-col gap-[5px] cursor-pointer items-center'>
           <AnchorLink
-            className='anchor-link no-underline dark:text-white'
+            className='anchor-link no-underline text-white'
             offset={50}
             href='#skills' onClick={() => handleNavItemClick()}>
             <p onClick={() => setMenu('skills')}>Skills</p>
@@ -81,7 +81,7 @@ function Navbar() {
         </li>
         <li className='flex flex-col md:flex-col lg:flex-col gap-[5px] cursor-pointer items-center'>
           <AnchorLink
-            className='anchor-link no-underline dark:text-white'
+            className='anchor-link no-underline text-white'
             offset={50}
             href='#work' onClick={() => handleNavItemClick()}>
             <p onClick={() => setMenu('work')}>Portfolio</p>
@@ -90,7 +90,7 @@ function Navbar() {
         </li>
         <li className='flex flex-col md:flex-col lg:flex-col gap-[5px] cursor-pointer items-center'>
           <AnchorLink
-            className='anchor-link no-underline dark:text-white'
+            className='anchor-link no-underline text-white'
             offset={50}
             href='#contact' onClick={() => handleNavItemClick()}>
             <p onClick={() => setMenu('contact')}>Contact</p>

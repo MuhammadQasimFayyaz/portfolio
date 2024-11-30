@@ -16,6 +16,7 @@ import wordpress from '../../assets/skills/wordpress.svg'
 import vitejs from '../../assets/skills/vitejs.svg'
 import adobexd from '../../assets/skills/adobe-xd.svg'
 import canva from '../../assets/skills/canva.svg'
+import shopify from '../../assets/skills/shopify.svg'
 
 const Skills_data = [
     { id: "1", name: "HTML", image: html },
@@ -26,16 +27,17 @@ const Skills_data = [
     { id: "6", name: "MySQL", image: mysql },
     { id: "7", name: "Git", image: git },
     { id: "8", name: "Bootstrap", image: bootstrap },
-    { id: "9", name: "Figma", image: figma },
-    { id: "10", name: "Firebase", image: firebase },
-    { id: "11", name: "MaterialUI", image: materialui },
-    { id: "12", name: "Photoshop", image: photoshop },
-    { id: "13", name: "Illustrator", image: illustrator },
-    { id: "14", name: "MS Office", image: microsoftoffice },
+    // { id: "9", name: "Figma", image: figma },
+    // { id: "10", name: "Firebase", image: firebase },
+    // { id: "11", name: "MaterialUI", image: materialui },
+    // { id: "12", name: "Photoshop", image: photoshop },
+    // { id: "13", name: "Illustrator", image: illustrator },
+    // { id: "14", name: "MS Office", image: microsoftoffice },
     { id: "15", name: "WordPress", image: wordpress },
-    { id: "16", name: "ViteJS", image: vitejs },
-    { id: "17", name: "Adobe XD", image: adobexd },
-    { id: "18", name: "Canva", image: canva }
+    // { id: "16", name: "ViteJS", image: vitejs },
+    // { id: "17", name: "Adobe XD", image: adobexd },
+    { id: "18", name: "Canva", image: canva },
+    { id: '19', name: "Shopify", image: shopify }
 ]
 
 export default Skills_data

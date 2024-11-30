@@ -1,6 +1,5 @@
 // import "./Hero.css";
 import { TypeAnimation } from "react-type-animation";
-import AnchorLink from 'react-anchor-link-smooth-scroll'
 import { RiDownload2Fill } from 'react-icons/ri'
 import { FaGithub, FaFacebook, FaLinkedin } from "react-icons/fa";
 import image from '../../assets/image.png'
@@ -28,11 +27,13 @@ function Hero() {
         <span className="block">
           <TypeAnimation
             sequence={[
-              "frontend developer",
+              "Frontend Developer",
               2000,
               "freelancer",
               2000,
-              "Designer",
+              "WordPress Developer",
+              2000,
+              "Shopify Theme Developer",
             ]}
             speed={250}
             repeat={Infinity}
@@ -61,11 +62,11 @@ function Hero() {
         </a>
       </div>
       <div className="hero-action flex flex-col sm:flex-row items-center gap-[15px] sm:gap-[20px] md:gap-[25px] text-[16px] sm:text-[22px] md:text-[24px] font-medium mb-[30px] sm:mb-[40px] md:mb-[50px]">
-        <AnchorLink className='anchor-link' offset={50} href='#contact'>
+      <a href="https://www.linkedin.com/in/muhammad-qasim-fayyaz" target="_blank" rel="noopener norefferer" className="anchor-link">
           <div className="hero-connect py-[15px] sm:py-[22px] md:py-[25px] px-[20px] sm:px-[40px] md:px-[45px] rounded-full bg-gradient-to-r from-[#df8908] to-[#b415ff] cursor-pointer border-2 border-transparent transition duration-500 hover:border-white">
             Connect with me
           </div>
-        </AnchorLink>
+        </a>
         <button onClick={() => {downloadFileAtURL(PDF_FILE_URL)}} className="hero-resume flex items-center py-[15px] sm:py-[22px] md:py-[25px] px-[20px] sm:px-[55px] md:px-[70px] rounded-full border-2 cursor-pointer transition duration-500 border-[#b415ff] dark:hover:border-[#b415ff] hover:bg-[#b415ff] ">
           My Resume <RiDownload2Fill className="ml-2" />
         </button>

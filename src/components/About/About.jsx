@@ -40,6 +40,10 @@ function About() {
               <p className="min-w-[100px] sm:min-w-[120px] md:min-w-[140px] lg:min-w-[150px] text-[18px] sm:text-[20px] md:text-[22px] lg:text-[24px] font-medium transition-all duration-300 group-hover:bg-gradient-to-r group-hover:from-[#df8908] group-hover:to-[#b415ff] group-hover:bg-clip-text group-hover:text-transparent">WordPress</p>
               <hr className="w-[50%] sm:w-[60%] md:w-[65%] lg:w-[70%] outline-none border-none h-[6px] sm:h-[7px] md:h-[8px] rounded-full bg-gradient-to-r from-[#df8908] to-[#b415ff]" />
             </div>
+            <div className="about-skill flex gap-[20px] sm:gap-[30px] md:gap-[40px] lg:gap-[50px] items-center transition-transform duration-300 group">
+              <p className="min-w-[100px] sm:min-w-[120px] md:min-w-[140px] lg:min-w-[150px] text-[18px] sm:text-[20px] md:text-[22px] lg:text-[24px] font-medium transition-all duration-300 group-hover:bg-gradient-to-r group-hover:from-[#df8908] group-hover:to-[#b415ff] group-hover:bg-clip-text group-hover:text-transparent">Shopify</p>
+              <hr className="w-[50%] sm:w-[58%] md:w-[63%] lg:w-[68%] outline-none border-none h-[6px] sm:h-[7px] md:h-[8px] rounded-full bg-gradient-to-r from-[#df8908] to-[#b415ff]" />
+            </div>
           </div>
         </div>
       </div>

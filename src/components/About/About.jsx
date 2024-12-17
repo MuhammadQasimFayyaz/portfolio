@@ -20,7 +20,7 @@ function About() {
         </div>
         <div className="about-right flex flex-col gap-[40px] sm:gap-[50px] md:gap-[60px] lg:gap-[80px]">
           <div className="about-para flex flex-col gap-[15px] sm:gap-[20px] text-[18px] sm:text-[22px] md:text-[24px] lg:text-[26px] font-normal">
-            <p>I am an experienced Frontend Developer with over a decade of professional expertise in the field. Throughout my career, I have had the privilege of collaborating with prestigious organizations, contributing to their success and growth.</p>
+            <p>Hello, I am Muhammad Qasim Fayyaz, an experienced Frontend Developer with over a decade of professional expertise in the field. Throughout my career, I have had the privilege of collaborating with prestigious organizations, contributing to their success and growth.</p>
             <p>My passion for frontend development is not only reflected in my extensive experience but also in the enthusiasm and dedication I bring to each project.</p>
           </div>
           <div className="about-skills flex flex-col gap-[15px] sm:gap-[20px] md:gap-[25px] lg:gap-[30px]">

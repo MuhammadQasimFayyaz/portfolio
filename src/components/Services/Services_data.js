@@ -11,7 +11,7 @@ const Services_data = [
   },
   {
     s_no: "03",
-    s_name: "Web Development",
+    s_name: "WordPress Web Development",
     s_desc: "Website development using WordPress"
   }
 ]

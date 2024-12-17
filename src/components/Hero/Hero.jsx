@@ -18,8 +18,8 @@ function Hero() {
   }
 
   return (
-    <div id="home" className="hero flex flex-col items-center gap-[20px] sm:gap-[25px] md:gap-[30px] lg:gap-[35px]">
-      <img src={image} alt="profile image" className="mt-[20px] sm:mt-[20px] md:mt-[30px] lg:mt-[50px] w-[150px] sm:w-[180px] md:w-[200px] lg:w-[220px] h-auto rounded-[50%]" />
+    <section id="home" className="hero flex flex-col items-center gap-[20px] sm:gap-[25px] md:gap-[30px] lg:gap-[35px]">
+      <img src={image} alt="Muhammad Qasim Fayyaz - Web Developer" className="mt-[20px] sm:mt-[20px] md:mt-[30px] lg:mt-[50px] w-[150px] sm:w-[180px] md:w-[200px] lg:w-[220px] h-auto rounded-[50%]" />
       <h1 className="text-center w-[90%] sm:w-[80%] md:w-[75%] lg:w-[70%] text-[36px] sm:text-[48px] md:text-[54px] lg:text-[60px] font-semibold">
         <span className="bg-gradient-to-r from-[#df8908] to-[#b415ff] bg-clip-text text-transparent">
           I`m Muhammad Qasim Fayyaz,
@@ -71,7 +71,7 @@ function Hero() {
           My Resume <RiDownload2Fill className="ml-2" />
         </button>
       </div>
-    </div>
+    </section>
   )
 }
 

@@ -29,7 +29,7 @@ function Hero() {
             sequence={[
               "Frontend Developer",
               2000,
-              "freelancer",
+              "Freelancer",
               2000,
               "WordPress Developer",
               2000,
@@ -50,7 +50,7 @@ function Hero() {
         >
           <FaFacebook />
         </a>
-        <a href="https://github.com/MuhammadQasimFiaz" target="blank">
+        <a href="https://github.com/MuhammadQasimFayyaz" target="blank">
           <FaGithub />
         </a>
         <a

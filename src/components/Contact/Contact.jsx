@@ -69,8 +69,8 @@ function Contact() {
           <div className="contact-details flex flex-col gap-[20px] sm:gap-[25px] md:gap-[30px] dark:text-[#d8d8d8] text-[#161513] text-[18px] sm:text-[20px] md:text-[22px]">
             <div className="contact-detail flex items-center gap-[15px] sm:gap-[18px] md:gap-[20px]">
               <img src={mail} alt="" className="w-[8%] md:w-[6%] filter invert dark:invert-0" />
-              <a href="mailto:qasim.dev404@gmail.com" className="break-words">
-                qasim.dev404@gmail.com
+              <a href="mailto:qasimfayyaz.dev@gmail.com" className="break-words">
+                qasimfayyaz.dev@gmail.com
               </a>
             </div>
             <div className="contact-detail flex items-center gap-[15px] sm:gap-[18px] md:gap-[20px]">

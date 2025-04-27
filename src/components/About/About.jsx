@@ -2,7 +2,7 @@
 import design from '../../assets/design.svg'
 import { useInView } from 'react-intersection-observer'
 import CountUp from 'react-countup'
-// import about_img from '../../assets/about_img.png'
+import about_img from '../../assets/about_img.png'
 
 function About() {
 
@@ -16,12 +16,12 @@ function About() {
       </div>
       <div className="about-sections flex flex-col lg:flex-row gap-[40px] sm:gap-[50px] md:gap-[60px] lg:gap-[80px]">
         <div className="about-left">
-          <img src='' alt="" className="w-[150px] sm:w-[180px] md:w-[200px] lg:w-[220px] h-auto" />
+          <img src={about_img} alt="" className=" h-auto" />
         </div>
         <div className="about-right flex flex-col gap-[40px] sm:gap-[50px] md:gap-[60px] lg:gap-[80px]">
           <div className="about-para flex flex-col gap-[15px] sm:gap-[20px] text-[18px] sm:text-[22px] md:text-[24px] lg:text-[26px] font-normal">
-            <p>Hello, I am Muhammad Qasim Fayyaz, an experienced Frontend Developer with over a decade of professional expertise in the field. Throughout my career, I have had the privilege of collaborating with prestigious organizations, contributing to their success and growth.</p>
-            <p>My passion for frontend development is not only reflected in my extensive experience but also in the enthusiasm and dedication I bring to each project.</p>
+            <p>Hello, I am Muhammad Qasim Fayyaz, an experienced Web Developer with over a decade of professional expertise in the field. Throughout my career, I have had the privilege of collaborating with prestigious organizations, contributing to their success and growth.</p>
+            <p>My passion for web development is not only reflected in my extensive experience but also in the enthusiasm and dedication I bring to each project.</p>
           </div>
           <div className="about-skills flex flex-col gap-[15px] sm:gap-[20px] md:gap-[25px] lg:gap-[30px]">
             <div className="about-skill flex gap-[20px] sm:gap-[30px] md:gap-[40px] lg:gap-[50px] items-center transition-transform duration-300 group">
@@ -33,10 +33,6 @@ function About() {
               <hr className="w-[50%] sm:w-[60%] md:w-[65%] lg:w-[70%] outline-none border-none h-[6px] sm:h-[7px] md:h-[8px] rounded-full bg-gradient-to-r from-[#df8908] to-[#b415ff]" />
             </div>
             <div className="about-skill flex gap-[20px] sm:gap-[30px] md:gap-[40px] lg:gap-[50px] items-center transition-transform duration-300 group">
-              <p className="min-w-[100px] sm:min-w-[120px] md:min-w-[140px] lg:min-w-[150px] text-[18px] sm:text-[20px] md:text-[22px] lg:text-[24px] font-medium transition-all duration-300 group-hover:bg-gradient-to-r group-hover:from-[#df8908] group-hover:to-[#b415ff] group-hover:bg-clip-text group-hover:text-transparent">ReactJS</p>
-              <hr className="w-[45%] sm:w-[55%] md:w-[60%] lg:w-[65%] outline-none border-none h-[6px] sm:h-[7px] md:h-[8px] rounded-full bg-gradient-to-r from-[#df8908] to-[#b415ff]" />
-            </div>
-            <div className="about-skill flex gap-[20px] sm:gap-[30px] md:gap-[40px] lg:gap-[50px] items-center transition-transform duration-300 group">
               <p className="min-w-[100px] sm:min-w-[120px] md:min-w-[140px] lg:min-w-[150px] text-[18px] sm:text-[20px] md:text-[22px] lg:text-[24px] font-medium transition-all duration-300 group-hover:bg-gradient-to-r group-hover:from-[#df8908] group-hover:to-[#b415ff] group-hover:bg-clip-text group-hover:text-transparent">WordPress</p>
               <hr className="w-[50%] sm:w-[60%] md:w-[65%] lg:w-[70%] outline-none border-none h-[6px] sm:h-[7px] md:h-[8px] rounded-full bg-gradient-to-r from-[#df8908] to-[#b415ff]" />
             </div>
@@ -44,13 +40,17 @@ function About() {
               <p className="min-w-[100px] sm:min-w-[120px] md:min-w-[140px] lg:min-w-[150px] text-[18px] sm:text-[20px] md:text-[22px] lg:text-[24px] font-medium transition-all duration-300 group-hover:bg-gradient-to-r group-hover:from-[#df8908] group-hover:to-[#b415ff] group-hover:bg-clip-text group-hover:text-transparent">Shopify</p>
               <hr className="w-[50%] sm:w-[58%] md:w-[63%] lg:w-[68%] outline-none border-none h-[6px] sm:h-[7px] md:h-[8px] rounded-full bg-gradient-to-r from-[#df8908] to-[#b415ff]" />
             </div>
+            <div className="about-skill flex gap-[20px] sm:gap-[30px] md:gap-[40px] lg:gap-[50px] items-center transition-transform duration-300 group">
+              <p className="min-w-[100px] sm:min-w-[120px] md:min-w-[140px] lg:min-w-[150px] text-[18px] sm:text-[20px] md:text-[22px] lg:text-[24px] font-medium transition-all duration-300 group-hover:bg-gradient-to-r group-hover:from-[#df8908] group-hover:to-[#b415ff] group-hover:bg-clip-text group-hover:text-transparent">ReactJS</p>
+              <hr className="w-[35%] sm:w-[35%] md:w-[45%] lg:w-[55%] outline-none border-none h-[6px] sm:h-[7px] md:h-[8px] rounded-full bg-gradient-to-r from-[#df8908] to-[#b415ff]" />
+            </div>
           </div>
         </div>
       </div>
       <div className="about-achievements flex flex-col md:flex-row w-full justify-between items-center gap-[40px] sm:gap-[50px] md:gap-[60px] lg:gap-[80px] mb-[50px] sm:mb-[60px] md:mb-[70px] lg:mb-[80px]">
         <div className="about-achievement flex flex-col items-center gap-[5px] sm:gap-[8px] md:gap-[10px] transition-transform duration-500 group">
           <h1 className="text-[40px] sm:text-[50px] md:text-[55px] lg:text-[60px] font-bold bg-gradient-to-r from-[#df8908] to-[#b415ff] bg-clip-text text-transparent group-hover:text-white dark:group-hover:text-[#161513] transition-colors duration-300">
-            {inView ? <CountUp start={0} end={10} duration={5}/> : null}+
+            {inView ? <CountUp start={0} end={3} duration={5}/> : null}+
           </h1>
           <p className="text-[18px] sm:text-[20px] md:text-[22px] lg:text-[22px] font-medium uppercase text-center group-hover:text-[#b415ff] transition-colors duration-300">Years of experience</p>
         </div>
